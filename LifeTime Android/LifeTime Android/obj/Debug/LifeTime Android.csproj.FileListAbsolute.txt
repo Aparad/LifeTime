@@ -1,0 +1,38 @@
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\LifeTime Android.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\LifeTime Android.pdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\LifeTime_Android.LifeTime_Android.apk
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\LifeTime_Android.LifeTime_Android-Signed.apk
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\LifeTime Android.csprojResolveAssemblyReference.cache
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\LifeTime Android.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\LifeTime Android.pdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\android\bin\LifeTime_Android.LifeTime_Android.apk
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\res\layout\main.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\res\values\strings.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\res\drawable\icon.png
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\R.cs.flag
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\uploadflags.txt
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\LifeTime Android.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\android\assets\LifeTime Android.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\res\layout\goallayout.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Extras.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\GalaSoft.MvvmLight.Platform.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\bin\Debug\Microsoft.Practices.ServiceLocation.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\android\assets\GalaSoft.MvvmLight.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\android\assets\GalaSoft.MvvmLight.Extras.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\android\assets\GalaSoft.MvvmLight.Platform.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\LifeTime Android\LifeTime Android\obj\Debug\android\assets\Microsoft.Practices.ServiceLocation.dll.mdb
