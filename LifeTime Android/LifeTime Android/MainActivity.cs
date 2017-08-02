@@ -19,22 +19,22 @@ namespace LifeTime_Android
             SetContentView (Resource.Layout.Main);
 
             GoalMenu goalMenu = new GoalMenu();
-            goalMenu.AddGoal(new Model.Goal("Practice guitar"));
-            goalMenu.AddGoal(new Model.Goal("Study for exams next week"));
-            goalMenu.AddGoal(new Model.Goal("Relax", status : true));
+            Model.Goal goal1 = new Model.Goal("Practice guitar");
+            Model.DailyActivity act1 = new Model.DailyActivity("Arpeggios", "Shred some arpeggios!", 1, true);
+            goal1.GoalActivities.Add(act1);
+            goalMenu.AddGoal(goal1);
+
+            Model.Goal goal2 = new Model.Goal("Study for exams next week");
+            Model.DailyActivity act2 = new Model.DailyActivity("Chemistry n' shit", "DO some magic.", 1, false);
+            goal2.GoalActivities.Add(act2);
+            goalMenu.AddGoal(goal2);
+            goalMenu.AddGoal(new Model.Goal("Relax", status : false));
 
             ViewGroup goalsLayout = (LinearLayout)FindViewById(Resource.Id.goalsLayout);
+            var intent = new Android.Content.Intent(this, typeof(GoalActivity));
             foreach (var goal in goalMenu.MyGoals)
             {
-                Button goalButton = new Button(this);
-                goalButton.Text = goal.GoalName;
-                goalsLayout.AddView(goalButton);
-                goalButton.Click += (sender, e) =>
-                 {
-                     var intent = new Android.Content.Intent(this, typeof(GoalActivity));
-                     intent.PutExtra("GoalPassed", JsonConvert.SerializeObject(goal));
-                     StartActivity(intent);
-                 };
+                goalMenu.PopulateGoalMenuList(goal, intent, this, goalsLayout);
             }
         }
     }

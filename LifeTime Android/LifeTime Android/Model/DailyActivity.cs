@@ -5,6 +5,11 @@ namespace LifeTime_Android.Model
     class DailyActivity
     {
         private String _activityName = String.Empty;
+        private String _activityDescription = String.Empty;
+        private String _activityType = "Quantity";
+        private float _activityQuant = 0;
+        private bool _activityStatus = false;
+
         public String ActivityName
         {
             get
@@ -20,7 +25,7 @@ namespace LifeTime_Android.Model
                 _activityName = value;
             }
         }
-        private String _activityDescription = String.Empty;
+        
         public String ActivityDescription
         {
             get
@@ -32,7 +37,7 @@ namespace LifeTime_Android.Model
                 _activityDescription = value;
             }
         }
-        private String _activityType = "Quantity";
+        
         public String ActivityType
         {
             get
@@ -44,7 +49,7 @@ namespace LifeTime_Android.Model
                 _activityType = value;
             }
         }
-        private float _activityQuant = 0;
+        
         public float ActivityQuant
         {
             get
@@ -67,7 +72,7 @@ namespace LifeTime_Android.Model
                 }
             }
         }
-        private bool _activityStatus = false;
+        
         public bool ActivityStatus
         {
             get

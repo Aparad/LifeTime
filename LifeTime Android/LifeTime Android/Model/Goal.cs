@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
+using System.Linq;
 
 namespace LifeTime_Android.Model
 {
@@ -41,6 +42,11 @@ namespace LifeTime_Android.Model
         {
             get
             {
+                if (GoalActivities.Count != 0)
+                {
+                    var status = !GoalActivities.Any(x => x.ActivityStatus == false);
+                    _goalStatus = status;
+                }
                 return _goalStatus;
             }
             set
