@@ -20,13 +20,14 @@ namespace LifeTime_Android
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-
-            // Create your application here
             SetContentView(Resource.Layout.GoalLayout);
 
-            TextView goalName = (TextView)FindViewById(Resource.Id.GoalName);
+            TextView goalName = (TextView)FindViewById(Resource.Id.GoalName); //Find TextField with goal name
             var PassedGoal = Intent.GetStringExtra("GoalPassed");
-            Goal PassedGoalDeserialized = JsonConvert.DeserializeAnonymousType(PassedGoal, new Goal());
+            Goal PassedGoalDeserialized = JsonConvert.DeserializeAnonymousType(PassedGoal, new Goal()); //Deserialization of incoming goal
+
+            //Assigning goal values to activity fields
+
             goalName.Text = PassedGoalDeserialized.GoalName;
         }
     }

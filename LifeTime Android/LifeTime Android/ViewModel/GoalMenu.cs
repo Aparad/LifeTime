@@ -21,7 +21,7 @@ namespace LifeTime_Android.ViewModel
         {
             MyGoals.Remove(goal);
         }
-        public void PopulateGoalMenuList(Goal goal, Intent intent, Context context, ViewGroup Layout)
+        public void PopulateGoalMenuList(Goal goal, Intent intent, Context context, ViewGroup Layout) //Add goal button to GoalMenu
         {
             Button goalButton = new Button(context);
             goalButton.Text = goal.GoalName;

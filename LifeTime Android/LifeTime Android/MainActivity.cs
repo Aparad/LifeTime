@@ -18,6 +18,7 @@ namespace LifeTime_Android
             // Set our view from the "main" layout resource
             SetContentView (Resource.Layout.Main);
 
+            //Example data
             GoalMenu goalMenu = new GoalMenu();
             Model.Goal goal1 = new Model.Goal("Practice guitar");
             Model.DailyActivity act1 = new Model.DailyActivity("Arpeggios", "Shred some arpeggios!", 1, true);
