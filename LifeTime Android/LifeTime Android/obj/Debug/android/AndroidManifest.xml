@@ -5,6 +5,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <application android:label="LifeTime_Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
+    <activity android:label="DailyActivity" android:name="md50291d1335c28c993a7dce0ffa37151ac.DailyActivityActivity" />
     <activity android:label="GoalActivity" android:name="md50291d1335c28c993a7dce0ffa37151ac.GoalActivity" />
     <activity android:icon="@drawable/icon" android:label="LifeTime_Android" android:name="md50291d1335c28c993a7dce0ffa37151ac.MainActivity">
       <intent-filter>

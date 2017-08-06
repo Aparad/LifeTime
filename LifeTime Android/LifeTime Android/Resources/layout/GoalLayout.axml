@@ -24,22 +24,19 @@
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:id="@+id/linearLayout2">
-            <Button
-                android:text="Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/button1" />
-            <Button
-                android:text="Button"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/button2" />
-        </LinearLayout>
+            android:id="@+id/GoalActivities"
+            android:minWidth="25px"
+            android:minHeight="25px" />
     </LinearLayout>
     <ProgressBar
-        style="?android:attr/progressBarStyleLarge"
+        style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/GoalProgressbar" />
+        android:id="@+id/GoalProgressbar"
+        android:max="100"
+        android:indeterminate="false"
+        android:indeterminateTint="#ffa52a2a"
+        android:progress="0"
+        android:progressTint="#ff7fffd4"
+        android:progressBackgroundTint="#fff5f5dc" />
 </LinearLayout>

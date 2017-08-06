@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Linq;
+using Newtonsoft.Json;
 
 namespace LifeTime_Android.Model
 {
@@ -66,12 +67,14 @@ namespace LifeTime_Android.Model
             _goalName = info.GetString("GoalName");
             _goalDescription = info.GetString("GoalDescription");
             _goalStatus = info.GetBoolean("GoalStatus");
+            GoalActivities = (List<DailyActivity>) JsonConvert.DeserializeObject(info.GetString("GoalActivities"));
         }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
             info.AddValue("GoalName", _goalName);
             info.AddValue("GoalDescription", _goalDescription);
             info.AddValue("GoalStatus", _goalStatus);
+            info.AddValue("GoalActivities", GoalActivities);
         }
     }
 }

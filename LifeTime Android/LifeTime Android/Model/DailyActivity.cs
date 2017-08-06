@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
 namespace LifeTime_Android.Model
 {
-    class DailyActivity
+    [Serializable]
+    class DailyActivity : ISerializable
     {
         private String _activityName = String.Empty;
         private String _activityDescription = String.Empty;
@@ -25,7 +27,7 @@ namespace LifeTime_Android.Model
                 _activityName = value;
             }
         }
-        
+
         public String ActivityDescription
         {
             get
@@ -37,7 +39,7 @@ namespace LifeTime_Android.Model
                 _activityDescription = value;
             }
         }
-        
+
         public String ActivityType
         {
             get
@@ -49,7 +51,7 @@ namespace LifeTime_Android.Model
                 _activityType = value;
             }
         }
-        
+
         public float ActivityQuant
         {
             get
@@ -58,9 +60,9 @@ namespace LifeTime_Android.Model
             }
             set
             {
-                if(_activityType != "Quantity")
+                if (_activityType != "Quantity")
                 {
-                    if(value > 24) //24 hours
+                    if (value > 24) //24 hours
                     {
                         //TODO messagebox
                     }
@@ -72,7 +74,7 @@ namespace LifeTime_Android.Model
                 }
             }
         }
-        
+
         public bool ActivityStatus
         {
             get
@@ -92,6 +94,24 @@ namespace LifeTime_Android.Model
             _activityQuant = quant;
             _activityStatus = status;
             _activityType = type;
+        }
+
+        public DailyActivity(SerializationInfo info, StreamingContext context)
+        {
+            _activityName = info.GetString("ActivityName");
+            _activityDescription = info.GetString("ActivityDescription");
+            _activityQuant = (float)info.GetDouble("ActivityQuant");
+            _activityStatus = info.GetBoolean("ActivityStatus");
+            _activityType = info.GetString("ActivityType");
+        }
+
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("ActivityName", _activityName);
+            info.AddValue("ActivityDescription", _activityDescription);
+            info.AddValue("ActivityQuant", _activityQuant);
+            info.AddValue("ActivityStatus", _activityStatus);
+            info.AddValue("ActivityType", _activityType);
         }
     }
 }

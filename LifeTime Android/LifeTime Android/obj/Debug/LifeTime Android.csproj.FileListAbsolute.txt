@@ -68,3 +68,9 @@ C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Andro
 C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\res\drawable\icon.png
 C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\R.cs.flag
 C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\uploadflags.txt
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\bin\Debug\LifeTime Android.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\android\assets\GalaSoft.MvvmLight.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\android\assets\GalaSoft.MvvmLight.Extras.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\android\assets\GalaSoft.MvvmLight.Platform.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\android\assets\LifeTime Android.dll.mdb
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\android\assets\Microsoft.Practices.ServiceLocation.dll.mdb

@@ -70,12 +70,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DailyActivityActivity.cs" />
     <Compile Include="GoalActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\DailyActivity.cs" />
     <Compile Include="Model\Goal.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\GoalDetail.cs" />
     <Compile Include="ViewModel\GoalMenu.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ViewModelLocator.cs" />
