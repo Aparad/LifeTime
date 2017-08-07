@@ -27,7 +27,9 @@ namespace LifeTime_Android.ViewModel
             goalButton.Text = goal.GoalName;
             if (goal.GoalStatus)
                 goalButton.SetBackgroundColor(Android.Graphics.Color.Green);
-            else
+            else if(goal.GoalProgress != 0)
+                goalButton.SetBackgroundColor(Android.Graphics.Color.Yellow);
+            else if(!goal.GoalStatus)
                 goalButton.SetBackgroundColor(Android.Graphics.Color.Red);
             goalButton.Click += (sender, e) =>
             {

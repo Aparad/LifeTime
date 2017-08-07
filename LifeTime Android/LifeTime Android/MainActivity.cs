@@ -26,8 +26,10 @@ namespace LifeTime_Android
             goalMenu.AddGoal(goal1);
 
             Model.Goal goal2 = new Model.Goal("Study for exams next week");
-            Model.DailyActivity act2 = new Model.DailyActivity("Chemistry n' shit", "DO some magic.", 1, false);
+            Model.DailyActivity act2 = new Model.DailyActivity("Explosions", "BOOMbombombombombom", 1, true);
+            Model.DailyActivity act3 = new Model.DailyActivity("Chemistry n' shit", "DO some magic.", 1, false);
             goal2.GoalActivities.Add(act2);
+            goal2.GoalActivities.Add(act3);
             goalMenu.AddGoal(goal2);
             goalMenu.AddGoal(new Model.Goal("Relax", status : false));
 

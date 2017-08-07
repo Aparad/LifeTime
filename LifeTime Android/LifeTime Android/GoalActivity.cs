@@ -33,11 +33,9 @@ namespace LifeTime_Android
             TextView goalDescription = (TextView)FindViewById(Resource.Id.GoalDescription);
             goalDescription.Text = PassedGoalDeserialized.GoalDescription;
 
-            int progress = PassedGoalDeserialized.GoalActivities.Count(x => x.ActivityStatus == true);
             ProgressBar progressBar = (ProgressBar)FindViewById(Resource.Id.GoalProgressbar);
             progressBar.Max = PassedGoalDeserialized.GoalActivities.Count;
-            progressBar.Progress = progress;
-            Console.WriteLine(progress);
+            progressBar.Progress = PassedGoalDeserialized.GoalProgress;
         }
     }
 }

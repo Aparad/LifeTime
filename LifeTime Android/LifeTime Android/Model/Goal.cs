@@ -56,18 +56,33 @@ namespace LifeTime_Android.Model
             }
         }
 
-        public Goal(String name = "My goal", String description = "I should describe my goal...", bool status = false)
+        private int _goalProgress;
+        public int GoalProgress
+        {
+            get
+            {
+                return GoalActivities.Count(x => x.ActivityStatus == true); ;
+            }
+            set
+            {
+                _goalProgress = value;
+            }
+        }
+
+        public Goal(String name = "My goal", String description = "I should describe my goal...", bool status = false, int progress = 0)
         {
             _goalName = name;
             _goalDescription = description;
             _goalStatus = status;
+            _goalProgress = progress;
         }
         public Goal(SerializationInfo info, StreamingContext context)
         {
             _goalName = info.GetString("GoalName");
             _goalDescription = info.GetString("GoalDescription");
             _goalStatus = info.GetBoolean("GoalStatus");
-            GoalActivities = (List<DailyActivity>) JsonConvert.DeserializeObject(info.GetString("GoalActivities"));
+            GoalActivities = (List<DailyActivity>)info.GetValue("GoalActivities",(new List<DailyActivity>()).GetType());
+            _goalProgress = info.GetInt32("GoalProgress");
         }
         public void GetObjectData(SerializationInfo info, StreamingContext context)
         {
@@ -75,6 +90,7 @@ namespace LifeTime_Android.Model
             info.AddValue("GoalDescription", _goalDescription);
             info.AddValue("GoalStatus", _goalStatus);
             info.AddValue("GoalActivities", GoalActivities);
+            info.AddValue("GoalProgress", _goalProgress);
         }
     }
 }
