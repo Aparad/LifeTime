@@ -18,7 +18,7 @@ namespace LifeTime_Android
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            //SetContentView(Resource.Layout.DailyActivityLayout);
+            SetContentView(Resource.Layout.DailyActivityLayout);
 
         }
     }

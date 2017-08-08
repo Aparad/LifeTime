@@ -26,8 +26,9 @@ public final class R {
         public static final int goalsLayout=0x7f050006;
     }
     public static final class layout {
-        public static final int goallayout=0x7f030000;
-        public static final int main=0x7f030001;
+        public static final int dailyactivitylayout=0x7f030000;
+        public static final int goallayout=0x7f030001;
+        public static final int main=0x7f030002;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

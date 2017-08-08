@@ -8,7 +8,7 @@ using System.Runtime.Serialization;
 
 namespace LifeTime_Android
 {
-    [Activity(Label = "LifeTime_Android", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "LifeTime", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)

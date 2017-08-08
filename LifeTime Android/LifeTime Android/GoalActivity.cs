@@ -11,6 +11,7 @@ using Android.Views;
 using Android.Widget;
 using LifeTime_Android.Model;
 using Newtonsoft.Json;
+using LifeTime_Android.ViewModel;
 
 namespace LifeTime_Android
 {
@@ -36,6 +37,14 @@ namespace LifeTime_Android
             ProgressBar progressBar = (ProgressBar)FindViewById(Resource.Id.GoalProgressbar);
             progressBar.Max = PassedGoalDeserialized.GoalActivities.Count;
             progressBar.Progress = PassedGoalDeserialized.GoalProgress;
+
+            LinearLayout DailyActivitiesLayout = (LinearLayout)FindViewById(Resource.Id.GoalActivities);
+            GoalDetail goalDetail = new GoalDetail();
+            var intent = new Android.Content.Intent(this, typeof(DailyActivityActivity));
+            foreach (var DA in PassedGoalDeserialized.GoalActivities)
+            {
+                goalDetail.PopulateGoalActivities(DA, intent, this, DailyActivitiesLayout);
+            }
         }
     }
 }

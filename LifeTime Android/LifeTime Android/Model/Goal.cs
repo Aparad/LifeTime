@@ -69,7 +69,7 @@ namespace LifeTime_Android.Model
             }
         }
 
-        public Goal(String name = "My goal", String description = "I should describe my goal...", bool status = false, int progress = 0)
+        public Goal(String name = "My goal", String description = "I should describe my goal... Later...", bool status = false, int progress = 0)
         {
             _goalName = name;
             _goalDescription = description;
