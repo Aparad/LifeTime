@@ -7,6 +7,7 @@
   <application android:label="LifeTime_Android" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
     <activity android:label="DailyActivity" android:name="md50291d1335c28c993a7dce0ffa37151ac.DailyActivityActivity" />
     <activity android:label="GoalActivity" android:name="md50291d1335c28c993a7dce0ffa37151ac.GoalActivity" />
+    <activity android:label="GoalAddActivity" android:name="md50291d1335c28c993a7dce0ffa37151ac.GoalAddActivity" />
     <activity android:icon="@drawable/icon" android:label="LifeTime" android:name="md50291d1335c28c993a7dce0ffa37151ac.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

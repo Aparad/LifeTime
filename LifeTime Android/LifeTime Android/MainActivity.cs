@@ -39,6 +39,9 @@ namespace LifeTime_Android
             {
                 goalMenu.PopulateGoalMenuList(goal, intent, this, goalsLayout);
             }
+
+            Button addButton = (Button)FindViewById(Resource.Id.addButtonOutside);
+            addButton.Click += (sender, EventArgs) => { goalMenu.AddGoalButtonClick(sender, EventArgs, this); };
         }
     }
 }

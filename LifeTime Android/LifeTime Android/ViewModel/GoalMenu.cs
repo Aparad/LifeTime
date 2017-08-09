@@ -6,6 +6,7 @@ using Android.Views;
 using Android.Widget;
 using LifeTime_Android.Model;
 using Newtonsoft.Json;
+using System;
 
 namespace LifeTime_Android.ViewModel
 {
@@ -13,6 +14,10 @@ namespace LifeTime_Android.ViewModel
     {
         public List<Goal> MyGoals = new List<Goal>();
 
+        public void AddGoalButtonClick(Object sender, EventArgs e, Context context)
+        {
+            context.StartActivity(new Android.Content.Intent(context, typeof(GoalAddActivity)));
+        }
         public void AddGoal(Goal goal)
         {
             MyGoals.Add(goal);

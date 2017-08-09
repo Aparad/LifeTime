@@ -72,6 +72,7 @@
   <ItemGroup>
     <Compile Include="DailyActivityActivity.cs" />
     <Compile Include="GoalActivity.cs" />
+    <Compile Include="GoalAddActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\DailyActivity.cs" />
     <Compile Include="Model\Goal.cs" />
@@ -91,6 +92,9 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\DailyActivityLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\GoalAddLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

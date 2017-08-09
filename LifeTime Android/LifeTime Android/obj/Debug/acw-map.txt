@@ -6,6 +6,10 @@ LifeTime_Android.GoalActivity, LifeTime Android;md50291d1335c28c993a7dce0ffa3715
 LifeTime_Android.GoalActivity, LifeTime Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50291d1335c28c993a7dce0ffa37151ac.GoalActivity
 LifeTime_Android.GoalActivity;md50291d1335c28c993a7dce0ffa37151ac.GoalActivity
 lifetime_android.GoalActivity;md50291d1335c28c993a7dce0ffa37151ac.GoalActivity
+LifeTime_Android.GoalAddActivity, LifeTime Android;md50291d1335c28c993a7dce0ffa37151ac.GoalAddActivity
+LifeTime_Android.GoalAddActivity, LifeTime Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50291d1335c28c993a7dce0ffa37151ac.GoalAddActivity
+LifeTime_Android.GoalAddActivity;md50291d1335c28c993a7dce0ffa37151ac.GoalAddActivity
+lifetime_android.GoalAddActivity;md50291d1335c28c993a7dce0ffa37151ac.GoalAddActivity
 LifeTime_Android.MainActivity, LifeTime Android;md50291d1335c28c993a7dce0ffa37151ac.MainActivity
 LifeTime_Android.MainActivity, LifeTime Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md50291d1335c28c993a7dce0ffa37151ac.MainActivity
 LifeTime_Android.MainActivity;md50291d1335c28c993a7dce0ffa37151ac.MainActivity
