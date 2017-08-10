@@ -19,7 +19,18 @@ namespace LifeTime_Android
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.GoalAddLayout);
-            // Create your application here
+
+            Button addButton = (Button)FindViewById(Resource.Id.AddButtonInside);
+            EditText goalNameField = (EditText)FindViewById(Resource.Id.GoalNameEditText);
+            EditText goalDescriptionField = (EditText)FindViewById(Resource.Id.GoalDescriptionEditText);
+            addButton.Click += delegate
+            {
+                Intent goalData = new Intent();
+                goalData.PutExtra("goalName", goalNameField.Text);
+                goalData.PutExtra("goalDescription", goalDescriptionField.Text);
+                SetResult(Result.Ok, goalData);
+                Finish();
+            };
         }
     }
 }

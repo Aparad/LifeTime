@@ -12,21 +12,22 @@ namespace LifeTime_Android.ViewModel
 {
     class GoalMenu
     {
-        public List<Goal> MyGoals = new List<Goal>();
+        static public List<Goal> MyGoals = new List<Goal>();
 
-        public void AddGoalButtonClick(Object sender, EventArgs e, Context context)
-        {
-            context.StartActivity(new Android.Content.Intent(context, typeof(GoalAddActivity)));
-        }
-        public void AddGoal(Goal goal)
+        //public void AddGoalButtonClick(Object sender, EventArgs e, Context context)
+        //{
+        //    var intent = new Android.Content.Intent(context, typeof(GoalAddActivity));
+        //    context.StartActivity(intent);
+        //}
+        static public void AddGoal(Goal goal)
         {
             MyGoals.Add(goal);
         }
-        public void DeleteGoal(Goal goal)
+        static public void DeleteGoal(Goal goal)
         {
             MyGoals.Remove(goal);
         }
-        public void PopulateGoalMenuList(Goal goal, Intent intent, Context context, ViewGroup Layout) //Add goal button to GoalMenu
+        static public void PopulateGoalMenuList(Goal goal, Intent intent, Context context, ViewGroup Layout) //Add goal button to GoalMenu
         {
             Button goalButton = new Button(context);
             goalButton.Text = goal.GoalName;
