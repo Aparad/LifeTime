@@ -22,7 +22,7 @@ namespace LifeTime_Android
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.GoalLayout);
-
+            
             //Get goal object from intent
             var PassedGoal = Intent.GetStringExtra("GoalPassed");
             Goal PassedGoalDeserialized = JsonConvert.DeserializeAnonymousType(PassedGoal, new Goal()); //Deserialization of incoming goal

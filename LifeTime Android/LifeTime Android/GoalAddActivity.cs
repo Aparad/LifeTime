@@ -9,6 +9,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Newtonsoft.Json;
 
 namespace LifeTime_Android
 {
@@ -25,12 +26,22 @@ namespace LifeTime_Android
             EditText goalDescriptionField = (EditText)FindViewById(Resource.Id.GoalDescriptionEditText);
             addButton.Click += delegate
             {
-                Intent goalData = new Intent();
-                goalData.PutExtra("goalName", goalNameField.Text);
-                goalData.PutExtra("goalDescription", goalDescriptionField.Text);
-                SetResult(Result.Ok, goalData);
-                Finish();
+                try //trying to create a new goal, catching for correct goal field formats
+                {
+                    Model.Goal goal = new Model.Goal();
+                    goal.GoalName = goalNameField.Text;
+                    goal.GoalDescription = goalDescriptionField.Text;
+                    Intent goalData = new Intent();
+                    goalData.PutExtra("GoalPassed", JsonConvert.SerializeObject(goal));
+                    SetResult(Result.Ok, goalData);
+                    Finish();
+                }
+                catch (System.FormatException fE)
+                {
+                    Toast.MakeText(this, fE.Message, ToastLength.Short).Show();
+                }
             };
+
         }
     }
 }

@@ -13,6 +13,12 @@ namespace LifeTime_Android.ViewModel
     class GoalMenu
     {
         public List<Goal> MyGoals = new List<Goal>();
+        private Context _context;
+
+        public GoalMenu(Context c)
+        {
+            _context = c;
+        }
 
         //public void AddGoalButtonClick(Object sender, EventArgs e, Context context)
         //{
@@ -21,6 +27,7 @@ namespace LifeTime_Android.ViewModel
         //}
         public void AddGoal(Goal goal, Intent intent, Context context, ViewGroup Layout)
         {
+            goal._context = _context;
             MyGoals.Add(goal);
             PopulateGoalMenuList(goal, intent, context, Layout);
         }

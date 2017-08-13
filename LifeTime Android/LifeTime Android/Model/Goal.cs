@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Linq;
 using Newtonsoft.Json;
+using Android.Content;
+using Android.Widget;
 
 namespace LifeTime_Android.Model
 {
@@ -11,6 +13,7 @@ namespace LifeTime_Android.Model
     {
         public List<DailyActivity> GoalActivities = new List<DailyActivity>();
         private String _goalName = String.Empty;
+        public Context _context;
         public String GoalName
         {
             get
@@ -21,9 +24,16 @@ namespace LifeTime_Android.Model
             {
                 if (value.ToString().Length > 100)
                 {
-                    //TODO messagebox "too long name"...
+                    throw new System.FormatException("Your goal name too long");
                 }
-                _goalName = value;
+                else if (value.ToString().Length == 0 || value == null)
+                {
+                    throw new System.FormatException("You should name your goal first");
+                }
+                else
+                {
+                    _goalName = value;
+                }
             }
         }
         private String _goalDescription = String.Empty;
