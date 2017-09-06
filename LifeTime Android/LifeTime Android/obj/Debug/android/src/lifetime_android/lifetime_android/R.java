@@ -23,18 +23,22 @@ public final class R {
         public static final int GoalName=0x7f050005;
         public static final int GoalNameEditText=0x7f050001;
         public static final int GoalNameTextView=0x7f050000;
-        public static final int GoalPageTitle=0x7f05000a;
+        public static final int GoalPageTitle=0x7f05000c;
         public static final int GoalProgressbar=0x7f050009;
-        public static final int addButtonOutside=0x7f05000d;
-        public static final int buttonsLayout=0x7f05000c;
-        public static final int delButton=0x7f05000e;
-        public static final int goalsLayout=0x7f05000b;
+        public static final int ListViewCheckbox=0x7f05000b;
+        public static final int ListViewTextview=0x7f05000a;
+        public static final int addButtonOutside=0x7f050010;
+        public static final int buttonsLayout=0x7f05000f;
+        public static final int delButton=0x7f050011;
+        public static final int goalsLayout=0x7f05000d;
+        public static final int goalsListView=0x7f05000e;
     }
     public static final class layout {
         public static final int dailyactivitylayout=0x7f030000;
         public static final int goaladdlayout=0x7f030001;
         public static final int goallayout=0x7f030002;
-        public static final int main=0x7f030003;
+        public static final int goallistelementtemplate=0x7f030003;
+        public static final int main=0x7f030004;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

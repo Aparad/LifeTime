@@ -87,23 +87,32 @@ namespace LifeTime_Android
 			// aapt resource value: 0x7f050000
 			public const int GoalNameTextView = 2131034112;
 			
-			// aapt resource value: 0x7f05000a
-			public const int GoalPageTitle = 2131034122;
+			// aapt resource value: 0x7f05000c
+			public const int GoalPageTitle = 2131034124;
 			
 			// aapt resource value: 0x7f050009
 			public const int GoalProgressbar = 2131034121;
 			
-			// aapt resource value: 0x7f05000d
-			public const int addButtonOutside = 2131034125;
+			// aapt resource value: 0x7f05000b
+			public const int ListViewCheckbox = 2131034123;
 			
-			// aapt resource value: 0x7f05000c
-			public const int buttonsLayout = 2131034124;
+			// aapt resource value: 0x7f05000a
+			public const int ListViewTextview = 2131034122;
+			
+			// aapt resource value: 0x7f050010
+			public const int addButtonOutside = 2131034128;
+			
+			// aapt resource value: 0x7f05000f
+			public const int buttonsLayout = 2131034127;
+			
+			// aapt resource value: 0x7f050011
+			public const int delButton = 2131034129;
+			
+			// aapt resource value: 0x7f05000d
+			public const int goalsLayout = 2131034125;
 			
 			// aapt resource value: 0x7f05000e
-			public const int delButton = 2131034126;
-			
-			// aapt resource value: 0x7f05000b
-			public const int goalsLayout = 2131034123;
+			public const int goalsListView = 2131034126;
 			
 			static Id()
 			{
@@ -128,7 +137,10 @@ namespace LifeTime_Android
 			public const int GoalLayout = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Main = 2130903043;
+			public const int GoalListElementTemplate = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
 			
 			static Layout()
 			{

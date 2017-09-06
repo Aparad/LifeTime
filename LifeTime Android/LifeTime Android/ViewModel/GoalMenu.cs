@@ -29,7 +29,7 @@ namespace LifeTime_Android.ViewModel
         {
             goal._context = _context;
             MyGoals.Add(goal);
-            PopulateGoalMenuList(goal, intent, context, Layout);
+            //PopulateGoalMenuList(goal, intent, context, Layout);
         }
         public void DeleteGoal(Goal goal)
         {

@@ -76,3 +76,4 @@ C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Andro
 C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\android\assets\Microsoft.Practices.ServiceLocation.dll.mdb
 C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\res\layout\dailyactivitylayout.xml
 C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\res\layout\goaladdlayout.xml
+C:\Users\Radek\Documents\Visual Studio 2017\Projects\Git\LifeTime\LifeTime Android\LifeTime Android\obj\Debug\res\layout\goallistelementtemplate.xml
